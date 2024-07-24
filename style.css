@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+#top-heading{
+    background-color: burlywood;
+    color:azure; 
+}
+
+.wrapper{
+          
+    display : flex;
+    flex-wrap: wrap;
+}
+.wrapper-item{
+     background-color: blueviolet;
+     width:300px;
+     height:300px;
+}
+.wrapper-item:nth-child(2){
+    background-color: brown;
+}
+@media only screen and (min-width: 576px) and (max-width : 768px){
+    #top-heading{
+        background-color: cadetblue;
+    }
+    .wrapper-item{
+        background-color:burlywood;
+    }
+    .wrapper-item:nth-child(2){
+        background-color: cornflowerblue;
+    }
+}
